@@ -1,0 +1,44 @@
+{
+    "location": "Delhi",
+    "address": "123 Main Street, Delhi",
+    "contact": "+91-1234567890",
+    "hours": {
+        "weekday": "11:00 AM - 11:00 PM",
+        "weekend": "11:00 AM - 12:00 AM"
+    },
+    "menu": {
+        "starters": [
+            "Tandoori Platter",
+            "Veg Platter",
+            "Non-veg Platter"
+        ],
+        "main_course": [
+            "Butter Chicken",
+            "Paneer Butter Masala",
+            "Veg Biryani",
+            "Chicken Biryani"
+        ],
+        "desserts": [
+            "Gulab Jamun",
+            "Ice Cream",
+            "Kheer"
+        ]
+    },
+    "pricing": {
+        "lunch": {
+            "weekday": "₹999 per person",
+            "weekend": "₹1299 per person"
+        },
+        "dinner": {
+            "weekday": "₹1299 per person",
+            "weekend": "₹1499 per person"
+        }
+    },
+    "faq": {
+        "parking": "Yes, we have valet parking available",
+        "reservations": "Reservations can be made up to 30 days in advance",
+        "cancellation": "Free cancellation up to 24 hours before the booking",
+        "dress_code": "Smart casual",
+        "payment": "We accept all major credit cards and digital payments"
+    }
+} 
