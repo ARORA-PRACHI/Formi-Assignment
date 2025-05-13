@@ -1,6 +1,4 @@
-Here's your professional and well-structured `README.md` for **BBQ Nation AI Assistant**, incorporating the API structure and polished with appropriate headings and formatting:
 
----
 
 # 🍽️ BBQ Nation AI Assistant
 
