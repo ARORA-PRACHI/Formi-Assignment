@@ -1,78 +1,128 @@
-BBQ Nation AI Assistant
+Here's your professional and well-structured `README.md` for **BBQ Nation AI Assistant**, incorporating the API structure and polished with appropriate headings and formatting:
 
-An advanced conversational assistant tailored for BBQ Nation restaurants in Delhi and Bangalore, designed to enhance the customer experience by facilitating seamless table reservations, managing booking modifications, and addressing frequently asked questions.
+---
 
-Key Features
-Intelligent FAQ response system
+# 🍽️ BBQ Nation AI Assistant
 
-Effortless new reservation flow
+An advanced **Conversational AI Assistant** tailored specifically for **BBQ Nation restaurants** in **Delhi** and **Bangalore**, designed to enhance customer experience by streamlining table reservations, booking modifications, and frequently asked questions.
 
-Ability to modify or cancel existing bookings
+---
 
-Location-specific knowledge base for accurate information
+## 🚀 Key Features
 
-Real-time state machine flow for smooth interactions
+* 🤖 **Intelligent FAQ System**
+  Context-aware responses to customer queries about timings, menu, offers, and more.
 
-Comprehensive post-call analysis for continuous improvement
+* 📅 **Effortless New Reservation Flow**
+  Quickly reserve a table based on user preferences and real-time availability.
 
-Functionalities
-Create new reservations
+* 🔁 **Modify or Cancel Bookings**
+  Easily manage existing reservations with simple interactions.
 
-Modify existing bookings
+* 📍 **Location-Specific Knowledge Base**
+  Smart, localized responses based on restaurant branches in Delhi and Bangalore.
 
-Cancel reservations
+* 🔄 **Real-Time State Machine Flow**
+  Ensures smooth, contextual multi-turn conversations.
 
-Provide detailed answers about menu, timing, offers, and more
+* 📊 **Post-Call Analysis**
+  Tracks performance and user satisfaction to improve future interactions.
 
-Installation
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
+---
+
+## ⚙️ Functionalities
+
+* ✅ Create new reservations
+* 🔄 Modify existing bookings
+* ❌ Cancel reservations
+* 📖 Provide detailed answers about:
+
+  * Menu
+  * Operating hours
+  * Ongoing offers
+  * Branch-specific info
+
+---
+
+## 🗂️ API Structure
+
+Here are some working API endpoints used by the assistant:
+
+* 🔗 **Properties**
+  `GET http://127.0.0.1:8000/api/kb/properties`
+
+* 🔗 **Branches**
+  `GET http://127.0.0.1:8000/api/kb/branches`
+
+* 🔗 **Categories**
+  `GET http://127.0.0.1:8000/api/kb/categories`
+
+---
+
+## 🛠️ Installation
+
+Follow the steps below to set up the project locally.
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/ARORA-PRACHI/Formi-Assignment.git
-2️⃣ Install Dependencies
-bash
-Copy
-Edit
+cd Formi-Assignment
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-3️⃣ Run the Application
-bash
-Copy
-Edit
+```
+
+### 3️⃣ Run the Application
+
+```bash
 uvicorn main:app --reload
-Tech Stack
-FastAPI – A high-performance web framework
+```
 
-Pydantic – Data validation through schemas
+---
 
-Python 3.10+ – Core logic and functionality
+## 🧰 Tech Stack
 
-Jinja2 – Templating engine for dynamic messages
+| Technology       | Description                     |
+| ---------------- | ------------------------------- |
+| **FastAPI**      | High-performance API framework  |
+| **Pydantic**     | Schema validation & type hints  |
+| **Python 3.10+** | Core backend logic              |
+| **Jinja2**       | Dynamic template rendering      |
+| **Uvicorn**      | ASGI server for running FastAPI |
 
-Uvicorn – ASGI server for serving the app
+---
 
+## 🧪 Testing
 
-Testing
-Unit tests can be executed with:
+Run unit tests using:
 
-bash
-Copy
-Edit
+```bash
 pytest tests/
-Contributing
-We encourage contributions! Here’s how you can get involved:
+```
 
-Fork the repository
+---
 
-Create a feature branch for your changes
+## 🤝 Contributing
 
-Commit your changes with clear descriptions
+We welcome contributions from the community. Here's how you can contribute:
 
-Submit a pull request for review
+1. **Fork** this repository
+2. **Create** a new feature branch
+3. **Commit** your changes with meaningful messages
+4. **Open a Pull Request** for review
 
-Contact
-For questions, feedback, or support, please reach out to us:
+---
 
-📧 Email: prachi659.be22@chitkara.edu.in
-🌐 Website: www.bbqNation.com
+## 📬 Contact
+
+For questions, suggestions, or support, feel free to get in touch:
+
+* 📧 Email: [prachi659.be22@chitkara.edu.in](mailto:prachi659.be22@chitkara.edu.in)
+* 🌐 Website: [www.bbqNation.com](https://www.bbqNation.com)
+
+---
 
